@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+backend/venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys
+*api_key*
+secrets/
+
+# Generated CVs
+data/generated/
+data/baseline_cv.tex
+
+# User data files (keep templates only)
+data/projects.json
+data/personal_info.json
+data/skills.json
+data/metadata.json
+data/*_portfolio.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
